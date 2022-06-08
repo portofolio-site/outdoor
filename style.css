@@ -1,0 +1,1871 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "RyuminPro-Heavy-83pv-RKSJ-H";
+  font-size: 0.875rem;
+  color: #2a2a2a;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+/*
+中身のコンテンツの最大幅を設定し、共通で使用
+*/
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.wrapper2{
+  width: 100%;
+  margin:0 auto;
+}
+.sec-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+/*
+ボタン
+「display: inline-block;」を設定して
+paddingでボタンに幅と高さを持たせる。
+*/
+.btn {
+  color: #2a2a2a;
+  border: solid 1px #2a2a2a;
+  display: inline-block;
+  font-size: 0.750rem;
+  padding: 14px 36px;
+  margin-top: 30px;
+}
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+/*
+height: 100vh;
+メインビジュアルを画面の高さにあわせる
+position: relative;
+ロゴの位置を固定するため、親要素の「position」に「relative」を設定
+*/
+#header {
+  height: 300vh;
+  background-image: url(../img/group.png);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
+  position: relative;
+}
+/*
+ロゴ
+「position: absolute;」を設定してから、
+ top と right で位置を調整
+*/
+#header .site-title {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+#header .site-title2 {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+}
+#header .site-title3 {
+  position: absolute;
+  top: 350px;
+  left: 30px;
+}
+#header .site-img {
+  position: absolute;
+  top: 600px;
+  left: 30px;
+}
+#header .site-white {
+  position: absolute;
+  top: 1000px;
+  left: 0px;
+}
+#header .site-gold {
+  position: absolute;
+  top: 1400px;
+  left: 30px;
+}
+/*-------------------------------------------
+head
+-------------------------------------------*/
+#head{
+    text-align:center;
+}
+.head{
+    position: relative;
+    display: inline-block;
+}
+.head img{
+    display: block;
+    max-width: 100%;
+    height: 1158px;
+    width:770px;
+}
+.head img:nth-of-type(2){
+    position: absolute;
+    left: 44px;
+    top: 119px;
+    width: 320px;
+    height: auto;
+}
+.head img:nth-of-type(3){
+    position: absolute;
+    left: 111px;
+    top: 222px;
+    width: 622px;
+    height: 102px;
+}
+.head img:nth-of-type(4){
+    position: absolute;
+    left:55px;
+    top: 338px;
+    width: 342px;
+    height: 224px;
+}
+.head img:nth-of-type(5){
+    position: absolute;
+    left:0;
+    top: 590px;
+    width: 553px;
+    height: 220px;
+}
+.head img:nth-of-type(6){
+    position: absolute;
+    left:69px;
+    top:814px;
+    width: 273.13px;
+    height: 266.52px;
+}
+.head img:nth-of-type(7){
+    position: absolute;
+    left:88px;
+    top:621px;
+    width: 413px;
+    height: 83px;
+}
+.head img:nth-of-type(8){
+    position: absolute;
+    left:100px;
+    top:692px;
+    width: 413px;
+    height: 83px;
+}
+.head img:nth-of-type(9){
+    position: absolute;
+    left:135px;
+    top: 880px;
+    width: 182.28px;
+    height: 154.55px;
+}
+.head img:nth-of-type(10){
+    position: absolute;
+    left:484px;
+    top: 880px;
+    width: 182.28px;
+    height: 154.55px;
+    z-index:10;
+}
+.head img:nth-of-type(11){
+    position: absolute;
+    left:435px;
+    top:814px;
+    width: 273.13px;
+    height: 266.52px;
+}
+.head img:nth-of-type(12){
+    position: absolute;
+    left:16px;
+    top: 0%;
+    width: 425px;
+    height: auto;
+}
+.head img:nth-of-type(13){
+    position: absolute;
+    left:32px;
+    top: 961px;
+    width: 339.2px;
+    height: 143.18px;
+}
+.head img:nth-of-type(14){
+    position: absolute;
+    left:405px;
+    top: 961px;
+    width: 339.2px;
+    height: 143.18px;
+}
+
+/*-------------------------------------------
+instagram
+-------------------------------------------*/
+#instagram{
+    text-align:center;
+    margin-top:-6px;
+    margin-bottom:26px;
+}
+.instagram{
+    position: relative;
+    display: inline-block;
+}
+.instagram img{
+    display: block;
+    max-width: 100%;
+    height: 297px;
+    width:770px;
+}
+.instagram img:nth-of-type(2){
+    position: absolute;
+    left: 135px;
+    top: 27px;
+    width: 93px;
+    height: 97px;
+}
+.instagram img:nth-of-type(3){
+    position: absolute;
+    left: 275px;
+    top: 26px;
+    width: 6px;
+    height:109px;
+}
+.instagram img:nth-of-type(4){
+    position: absolute;
+    left: 323px;
+    top: 40px;
+    width: 41.16px;
+    height: 68.95px;
+}
+.instagram img:nth-of-type(5){
+    position: absolute;
+    left: 367px;
+    top: 60px;
+    width: 33.4px;
+    height: 40.1px;;
+}
+.instagram img:nth-of-type(6){
+    position: absolute;
+    left: 397px;
+    top: 60px;
+    width: 24.35px;
+    height: 39.3px;
+}
+.instagram img:nth-of-type(7){
+    position: absolute;
+    left: 417px;
+    top: 48px;
+    width: 33.64px;
+    height: 66.77px;
+}
+.instagram img:nth-of-type(8){
+    position: absolute;
+    left: 447px;
+    top: 60px;
+    width: 40.1px;
+    height: 49.11px;
+}
+.instagram img:nth-of-type(9){
+    position: absolute;
+    left: 481px;
+    top: 60px;
+    width: 32.94px;
+    height:88.44px;
+}
+.instagram img:nth-of-type(10){
+    position: absolute;
+    left: 517px;
+    top: 60px;
+    width: 29.84px;
+    height: 44.89px;
+}
+.instagram img:nth-of-type(11){
+    position: absolute;
+    left: 544px;
+    top: 60px;
+    width: 40.1px;
+    height: 49.11px;
+}
+.instagram img:nth-of-type(12){
+    position: absolute;
+    left: 576px;
+    top: 60px;
+    width: 40.1px;
+    height: 49.11px;
+}
+.instagram img:nth-of-type(13){
+  position: absolute;
+  left: 158px;
+  top: 48px;
+  width: 47.73px;
+  height: 49.58px;
+}
+.instagram .text{
+    position: absolute;
+    top: 159px;
+    left:161px;
+    width: 520px;
+    height: 98px;
+    font-size:38.26px;
+    color:#FFFFFF;
+    font-family:Sigmar One;
+    letter-spacing:1px;
+    line-height:40.78px;
+}
+
+/*-------------------------------------------
+parple
+-------------------------------------------*/
+#parple{
+    text-align:center;
+    margin-bottom:24px;
+}
+.parple{
+    position: relative;
+    display: inline-block;
+}
+.parple img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width:715.39px;
+    height:715.38px;
+}
+.parple img:nth-of-type(2){
+    position: absolute;
+    left: 104px;
+    top: 56px;
+    width: 292.34px;
+    height: 418.87px;
+}
+.parple img:nth-of-type(3){
+    position: absolute;
+    left:308px;
+    top: 8px;
+    width: 315.33px;
+    height: 451.81px;
+    z-index:10;
+}
+.parple img:nth-of-type(4){
+    position: absolute;
+    left:20px;
+    top: 252px;
+    width: 293.12px;
+    height: 438.84px;
+}
+.parple img:nth-of-type(5){
+    position: absolute;
+    left:429px;
+    top: 334px;
+    width: 261.97px;
+    height: 375.36px;
+}
+/*-------------------------------------------
+btn
+-------------------------------------------*/
+#btn--orange{
+  text-align:center;
+  margin-bottom:108px;
+}
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background: linear-gradient(45deg, red, blue);
+  text-align:center;
+  padding:27px 110px;
+  letter-spacing:2px;
+  font-size:38.17px;
+  font-family:RyuminPro-Heavy-83pv-RKSJ-H;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: linear-gradient(45deg, red, blue);
+}
+
+a.btn--radius {
+   border-radius: 100vh;
+}
+/*-------------------------------------------
+nayami
+-------------------------------------------*/
+#nayami {
+  text-align: center;
+  width:770px;
+  height:396px;
+}
+#nayami  .flex-item {
+  display: flex;
+  justify-content: space-between;
+}
+/*
+テキストを上に重ねるために、
+親要素の「position」に「relative」を設定
+*/
+#nayami  .flex-item .item {
+
+  position: relative;
+}
+/*
+「position: absolute;」を設定し、
+top、left、rightで位置を調整
+*/
+
+#nayami  .flex-item .item .img {
+  color: #fff;
+  margin: 0 auto;
+  position: absolute;
+  top: 113px;
+  right:0;
+  left:0;
+}
+
+/*-------------------------------------------
+about
+-------------------------------------------*/
+#about{
+    text-align:center;
+}
+.about{
+    position: relative;
+    display: inline-block;
+}
+.about img{
+    display: block;
+    width: 770px;
+    height: 1086px;
+}
+.about img:nth-of-type(2){
+    position: absolute;
+    left: 245px;
+    top: 864px;
+    width: 439px;
+    height: 508px;
+}
+.about .img-container2 img{
+    position: absolute;
+    top: 656px;
+    left:30px;
+    width: 43.11px;
+    height: 35.35px;
+}
+.about .img-container3 img{
+    position: absolute;
+    top: 752px;
+    left:30px;
+    width: 43.11px;
+    height: 35.35px;
+}
+.about .img-container4 img{
+    position: absolute;
+    top: 848px;
+    left:30px;
+    width: 43.11px;
+    height: 35.35px;
+}
+.about .img-container5 img{
+    position: absolute;
+    top: 944px;
+    left:30px;
+    width: 43.11px;
+    height: 35.35px;
+}
+.about .text2{
+    position: absolute;
+    top: 673px;
+    left:80px;
+    /*width: 511px;*/
+    width:650px;
+    height: 37px;
+    font-size:28px;
+    color:#357A32;
+    font-family:HiraginoSans-W7-83pv-RKSJ-H;
+    letter-spacing:0.25px;
+    line-height:0.49px;
+}
+.about .text3{
+    position: absolute;
+    top: 755px;
+    left:80px;
+    width: 511px;
+    height: 37px;
+    font-size:28px;
+    color:#357A32;
+    font-family:HiraginoSans-W7-83pv-RKSJ-H;
+    letter-spacing:0.25px;
+    line-height:0.49px;
+}
+.about .text4{
+    position: absolute;
+    top: 865px;
+    left:80px;
+    /*width: 511px;*/
+    width:550px;
+    height: 37px;
+    font-size:28px;
+    color:#357A32;
+    font-family:HiraginoSans-W7-83pv-RKSJ-H;
+    letter-spacing:0.25px;
+    line-height:0.49px;
+}
+.about .text5{
+    position: absolute;
+    top: 961px;
+    left:80px;
+    /*width: 511px;*/
+    width:500px;
+    height: 37px;
+    font-size:28px;
+    color:#357A32;
+    font-family:HiraginoSans-W7-83pv-RKSJ-H;
+    letter-spacing:0.25px;
+    line-height:0.49px;
+}
+.about .text6{
+    position: absolute;
+    top: 790px;
+    left:80px;
+    width: 370px;
+    height: 37px;
+    font-size:28px;
+    color:#357A32;
+    font-family:HiraginoSans-W7-83pv-RKSJ-H;
+    letter-spacing:0.25px;
+    line-height:0.49px;
+}
+.about .img-container{
+display:flex;
+}
+
+/*-------------------------------------------
+example
+-------------------------------------------*/
+#example{
+    text-align:center;
+}
+.example{
+    position: relative;
+    display: inline-block;
+}
+.example img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.example img:nth-of-type(2){
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 200%;
+    height: 70%;
+}
+.example img:nth-of-type(3){
+    position: absolute;
+    margin-left:25%;
+    bottom: 65%;
+    width: 40%;
+    height: auto;
+}
+.example .text{
+    position: absolute;
+    bottom: 45%;
+    width: 100%;
+    height: auto;
+    font-size:30px;
+    color:#fff;
+}
+
+/*-------------------------------------------
+all-in-one
+-------------------------------------------*/
+#all-in-one{
+    text-align:center;
+}
+.all-in-one{
+    position: relative;
+    display: inline-block;
+}
+.all-in-one img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.all-in-one img:nth-of-type(2){
+    position: absolute;
+    right: 4%;
+    top: 4%;
+    width: 92%;
+    height: auto;
+}
+.all-in-one img:nth-of-type(3){
+    position: absolute;
+    right: 4%;
+    top: 10.2%;
+    width: 92%;
+    height: auto;
+}
+.all-in-one img:nth-of-type(4){
+    position: absolute;
+    left: 20%;
+    top: 39%;
+    height: auto;
+    width:16%;
+    height:3%;
+    z-index:100;
+}
+.all-in-one img:nth-of-type(5){
+  position: absolute;
+  left: 5%;
+  top: 67%;
+  width: 90%;
+  height: auto;
+  z-index:10;
+}
+.all-in-one img:nth-of-type(6){
+    position: absolute;
+    right: 0;
+    top: 10%;
+    width: 20%;
+    height: auto;
+}
+.all-in-one img:nth-of-type(7){
+    position: absolute;
+    left: 10%;
+    top: 43.5%;
+    width: 80%;
+    height: auto;
+    z-index:100;
+}
+.all-in-one img:nth-of-type(8){
+    position: absolute;
+    left: 10%;
+    top: 43.1%;
+    width: 20%;
+    height: auto;
+    z-index:9999;
+}
+.all-in-one img:nth-of-type(9){
+  position: absolute;
+  left: 13%;
+  top: 43%;
+  width: 50%;
+  height: auto;
+  z-index:9999;
+}
+.all-in-one img:nth-of-type(10){
+  position: absolute;
+  padding-left:55%;
+  top: 43.5%;
+  width: 200%;
+  height: auto;
+  z-index:100;
+}
+.all-in-one img:nth-of-type(11){
+  position: absolute;
+  left: 10%;
+  top: 61%;
+  width: 80%;
+  height: auto;
+  z-index:9999;
+}
+.all-in-one img:nth-of-type(12){
+  position: absolute;
+  left: 10%;
+  top: 67.5%;
+  width: 80%;
+  height: auto;
+  z-index:100;
+}
+.all-in-one img:nth-of-type(13){
+  position: absolute;
+  left: 10%;
+  top: 67.1%;
+  width: 20%;
+  height: auto;
+  z-index:9999;
+}
+.all-in-one img:nth-of-type(14){
+  position: absolute;
+  left: 13%;
+  top: 67%;
+  width: 50%;
+  height: auto;
+  z-index:9999;
+}
+.all-in-one img:nth-of-type(15){
+  position: absolute;
+  right: 11%;
+  top: 70%;
+  width: 45%;
+  height: auto;
+  z-index:9999;
+}
+.all-in-one img:nth-of-type(16){
+  position: absolute;
+  left: 10%;
+  top: 87%;
+  width: 80%;
+  height: auto;
+  z-index:9999;
+}
+.all-in-one img:nth-of-type(17){
+    position: absolute;
+    left: 40%;
+    top: 39%;
+    width: 30%;
+    height: auto;
+    z-index:100;
+}
+.all-in-one img:nth-of-type(18){
+    position: absolute;
+    left: 73%;
+    top: 39%;
+    width: 12%;
+    height: auto;
+    z-index:100;
+}
+.all-in-one img:nth-of-type(19){
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    width: 80%;
+    height: auto;
+    z-index:100;
+}
+.all-in-one img:nth-of-type(20){
+  position: absolute;
+  left: 10%;
+  top: 79%;
+  width: 80%;
+  height: auto;
+  z-index:100;
+}
+.all-in-one img:nth-of-type(21){
+  position: absolute;
+  left: 4%;
+  top: 36.8%;
+  width: 92%;
+  height: auto;
+}
+.all-in-one img:nth-of-type(22){
+  position: absolute;
+  left: 5%;
+  top: 43%;
+  width: 90%;
+  height: auto;
+  z-index:10;
+}
+.all-in-one img:nth-of-type(23){
+  position: absolute;
+  left: 9%;
+  top: 86.3%;
+  width: 24%;
+  height: auto;
+  z-index:9999;
+}
+.all-in-one img:nth-of-type(24){
+  position: absolute;
+  left: 18%;
+  top: 37.5%;
+  width: 66%;
+  height: auto;
+  z-index:100;
+}
+.all-in-one img:nth-of-type(25){
+  position: absolute;
+  left: 40%;
+  top: 39.8%;
+  width: 20%;
+  height: auto;
+  z-index:100;
+}
+.all-in-one img:nth-of-type(26){
+  position: absolute;
+  left: 40%;
+  top: 39%;
+  width: 23%;
+  z-index:100;
+  background:linear-gradient(transparent 70%,#ff6  15%);
+  font-weight:bold;
+}
+.all-in-one img:nth-of-type(27){
+  position: absolute;
+  left: 66%;
+  top: 40%;
+  width: 8%;
+  z-index:100;
+  height: auto;
+}
+
+.all-in-one .text{
+    position: absolute;
+    right: 0;
+    top: 6%;
+    width: 100%;
+    height: auto;
+    color:#fff;
+    font-size:30px;
+}
+.all-in-one .text2{
+    position: absolute;
+    top: 13%;
+    width: 100%;
+    height: auto;
+    font-size:22px;
+    padding-left:33%;
+    color:#357A32;
+    font-size:200%;
+}
+.all-in-one .text3{
+    position: absolute;
+    right:0;
+    top: 17%;
+    width: 100%;
+    height: auto;
+    padding-left:60%;
+    color:#357A32;
+    font-size:200%;
+}
+.all-in-one .text4{
+    position: absolute;
+    top: 39.2%;
+    left:24%;
+    height: auto;
+    z-index:100;
+    padding-right:60%;
+    font-size:180%;
+    text-shadow: 2px 2px 2px #fff;
+}
+.all-in-one .text5{
+    position: absolute;
+    top: 42%;
+    width: 100%;
+    height: auto;
+    z-index:100;
+    padding-left:5%;
+    color:#357A32;
+}
+.all-in-one .text6{
+    position: absolute;
+    top: 53%;
+    width: 100%;
+    height: auto;
+    z-index:100;
+    color:#fff;
+    font-size:20px;
+}
+.all-in-one .text7{
+    position: absolute;
+    top: 56.2%;
+    left:10%;
+    width: 80%;
+    height: auto;
+    z-index:100;
+    color:#fff;
+    text-align:left;
+    line-height:200%;
+    font-size:16px;
+}
+.all-in-one .text8{
+  position: absolute;
+  top: 77%;
+  width: 100%;
+  height: auto;
+  z-index:100;
+  color:#fff;
+  font-size:20px;
+}
+.all-in-one .text9{
+  position: absolute;
+  top: 81.2%;
+  left:10%;
+  width: 80%;
+  height: auto;
+  z-index:100;
+  color:#fff;
+  text-align:left;
+  line-height:200%;
+  font-size:16px;
+}
+.all-in-one .text10{
+  position: absolute;
+  top: 47.6%;
+  left:60.5%;
+  width: 17%;
+  height: auto;
+  z-index:1000;
+  color:#357A32;
+}
+.all-in-one .text11{
+  position: absolute;
+  top: 40.5%;
+  left:24%;
+  height: auto;
+  z-index:100;
+  padding-right:60%;
+  font-size:180%;
+  text-shadow: 2px 2px 2px #fff;
+}
+.all-in-one .img-container{
+display:flex;
+padding-bottom:10%;
+}
+/*-------------------------------------------
+example-green
+-------------------------------------------*/
+#example-green {
+  text-align: center;
+}
+#example-green  .flex-item {
+  display: flex;
+  justify-content: space-between;
+}
+/*
+テキストを上に重ねるために、
+親要素の「position」に「relative」を設定
+*/
+#example-green .flex-item .item {
+  width: 98%;
+  position: relative;
+}
+/*
+「position: absolute;」を設定し、
+top、left、rightで位置を調整
+*/
+#example-green  .flex-item .item .text {
+  max-width: 290px;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  font-size:30px;
+  letter-spacing:10px;
+}
+/*-------------------------------------------
+all-in-one-bottom
+-------------------------------------------*/
+#all-in-one-bottom{
+    text-align:center;
+}
+.all-in-one-bottom{
+    position: relative;
+    display: inline-block;
+}
+.all-in-one-bottom img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.all-in-one-bottom img:nth-of-type(2){
+    position: absolute;
+    right: 0;
+    top: 15%;
+    width: 100%;
+    height: auto;
+}
+.all-in-one-bottom img:nth-of-type(3){
+    position: absolute;
+    right: 0;
+    top: 35%;
+    width: 100%;
+    height: auto;
+}
+.all-in-one-bottom img:nth-of-type(4){
+    position: absolute;
+    right: 0;
+    top: 55%;
+    width: 100%;
+    height: auto;
+}
+.all-in-one-bottom img:nth-of-type(5){
+    position: absolute;
+    right: 0;
+    top: 75%;
+    width: 100%;
+    height: auto;
+}
+.all-in-one-bottom .text{
+    position: absolute;
+    right: 0;
+    bottom: 91%;
+    width: 100%;
+    height: auto;
+    font-size:140%;
+    color:#357A32;
+    font-weight:bold;
+}
+.all-in-one-bottom .text2{
+    position: absolute;
+    bottom: 70%;
+    width: 100%;
+    height: auto;
+    padding-left:38%;
+    color:#357A32;
+    font-size:140%;
+    text-align:left;
+}
+.all-in-one-bottom .text3{
+    position: absolute;
+    right: 0;
+    top:40.5%;
+    width: 100%;
+    padding-left:3%;
+    height: auto;
+    color:#357A32;
+    font-size:140%;
+    text-align:left;
+}
+.all-in-one-bottom .text4{
+  position: absolute;
+  right: 0;
+  top: 62%;
+  width: 100%;
+  height: auto;
+  padding-left:32%;
+  color:#357A32;
+  font-size:140%;
+  text-align:left;
+}
+.all-in-one-bottom .text5{
+  position: absolute;
+  right: 0;
+  top:87%;
+  width: 100%;
+  height: auto;
+  padding-left:3%;
+  color:#357A32;
+  font-size:140%;
+  text-align:left;
+}
+/*-------------------------------------------
+bottom
+-------------------------------------------*/
+#bottom{
+    text-align:center;
+}
+.bottom{
+    position: relative;
+    display: inline-block;
+}
+.bottom img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.bottom img:nth-of-type(2){
+    position: absolute;
+    right: 0;
+    top: 60%;
+    width: 100%;
+    height: auto;
+}
+.bottom .list{
+    position: absolute;
+    right: 0;
+    top: 18%;
+    width: 100%;
+    height: auto;
+    color:#357A32;
+    font-size:180%;
+    letter-spacing:3px;
+    font-weight:bold;
+}
+.bottom .text{
+    position: absolute;
+    padding-left:30%;
+    top: 80%;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-size:180%;
+    letter-spacing:3px;
+    font-weight:bold;
+}
+.bottom .text2{
+    position: absolute;
+    top: 125%;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-size:180%;
+    letter-spacing:3px;
+    font-weight:bold;
+}
+.bottom .text3{
+    position: absolute;
+    right: 0;
+    top: 130%;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-size:180%;
+    letter-spacing:3px;
+    font-weight:bold;
+}
+.bottom .text4{
+    position: absolute;
+    right: 0;
+    top: 140%;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-size:180%;
+    letter-spacing:3px;
+    font-weight:bold;
+}
+/*-------------------------------------------
+siyou
+-------------------------------------------*/
+#siyou {
+  text-align: center;
+  margin-bottom: 80px;
+}
+#siyou  .flex-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+/*
+テキストを上に重ねるために、
+親要素の「position」に「relative」を設定
+*/
+#siyou  .flex-item .item {
+  width: 98%;
+  position: relative;
+}
+/*
+「position: absolute;」を設定し、
+top、left、rightで位置を調整
+*/
+#siyou  .flex-item .item .text {
+  max-width: 290px;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  font-size:30px;
+  letter-spacing:10px;
+}
+
+/*-------------------------------------------
+step1
+-------------------------------------------*/
+#step1{
+    text-align:center;
+}
+.step1{
+    position: relative;
+    display: inline-block;
+}
+.step1 img{
+  top:10%;
+    right:0;
+    width: 60%;
+    height: auto;
+}
+.step1 img:nth-of-type(2){
+    position: absolute;
+    right: 19%;
+    top: 2%;
+    width: 60%;
+    height: auto;
+}
+.step1 .text{
+    position: absolute;
+    right: 0;
+    top: 12%;
+    width: 100%;
+    height: auto;
+    font-size:50px;
+}
+.step1 .text2{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    width: 100%;
+    height: auto;
+    font-size:50px;
+    font-weight:bold;
+}
+/*-------------------------------------------
+step2
+-------------------------------------------*/
+#step2{
+    text-align:center;
+}
+.step2{
+    position: relative;
+    display: inline-block;
+}
+.step2 img{
+  top:10%;
+    right:0;
+    width: 60%;
+    height: auto;
+}
+.step2 img:nth-of-type(2){
+  position: absolute;
+  right: 19%;
+  top: 2%;
+  width: 60%;
+  height: auto;
+}
+.step2 .text{
+  position: absolute;
+  right: 0;
+  top: 12%;
+  width: 100%;
+  height: auto;
+  font-size:50px;
+}
+.step2 .text2{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    width: 100%;
+    height: auto;
+    font-size:50px;
+    font-weight:bold;
+}
+/*-------------------------------------------
+step3
+-------------------------------------------*/
+#step3{
+    text-align:center;
+}
+.step3{
+    position: relative;
+    display: inline-block;
+}
+.step3 img{
+  top:10%;
+    right:0;
+    width: 60%;
+    height: auto;
+}
+.step3 img:nth-of-type(2){
+  position: absolute;
+  right: 19%;
+  top: 2%;
+  width: 60%;
+  height: auto;
+}
+.step3 .text{
+  position: absolute;
+  right: 0;
+  top: 12%;
+  width: 100%;
+  height: auto;
+  font-size:50px;
+}
+.step3 .text2{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    width: 100%;
+    height: auto;
+    font-size:50px;
+    font-weight:bold;
+}
+/*-------------------------------------------
+p
+-------------------------------------------*/
+.p{
+  text-align:center;
+  font-size:25px;
+  margin:20px 0;
+}
+.marker7{
+background:linear-gradient(transparent 40%,#ff6  75%);
+font-weight:bold;
+}
+/*-------------------------------------------
+yazirusi
+-------------------------------------------*/
+#yazirusi{
+  text-align:center;
+  width:13%;
+}
+.yazirusi{
+  margin:20px 0;
+}
+/*-------------------------------------------
+photo
+-------------------------------------------*/
+#photo{
+  text-align:center;
+}
+.photo{
+    position: relative;
+    display: inline-block;
+
+}
+.photo img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+/*-------------------------------------------
+haigou
+-------------------------------------------*/
+#haigou {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#haigou  .flex-item {
+  display: flex;
+  justify-content: space-between;
+}
+/*
+テキストを上に重ねるために、
+親要素の「position」に「relative」を設定
+*/
+#haigou  .flex-item .item {
+  width: 98%;
+  position: relative;
+}
+/*
+「position: absolute;」を設定し、
+top、left、rightで位置を調整
+*/
+#haigou  .flex-item .item .text {
+  max-width: 290px;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  font-size:30px;
+  letter-spacing:10px;
+}
+/*-------------------------------------------
+haigou-top
+-------------------------------------------*/
+#haigou-top{
+  text-align:center;
+}
+.haigou-top{
+    position: relative;
+    display: inline-block;
+}
+.haigou-top img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.haigou-top img:nth-of-type(2){
+    position: absolute;
+    left: 0;
+    top: 0.5%;
+    width: 49%;
+    height: auto;
+    padding-left:3%;
+}
+.haigou-top img:nth-of-type(3){
+    position: absolute;
+    right: 0;
+    top: 0.5%;
+    width: 49%;
+    height: auto;
+    padding-right:3%;
+}
+.haigou-top img:nth-of-type(4){
+    position: absolute;
+    top: 10%;
+    width: 49%;
+    height: auto;
+    left:25%;
+}
+.haigou-top img:nth-of-type(5){
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 49%;
+    height: auto;
+    padding-left:3%;
+}
+.haigou-top img:nth-of-type(6){
+    position: absolute;
+    right: 0;
+    top: 20%;
+    width: 49%;
+    height: auto;
+    padding-right:3%;
+}
+.haigou-top img:nth-of-type(7){
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    width: 40%;
+    height: auto;
+}
+.haigou-top img:nth-of-type(8){
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    width: 45%;
+    height: auto;
+}
+.haigou-top img:nth-of-type(9){
+    position: absolute;
+    left: 10%;
+    top: 37%;
+    width: 40%;
+    height: auto;
+}
+.haigou-top img:nth-of-type(10){
+    position: absolute;
+    left: 17%;
+    top: 57%;
+    width: 25%;
+    height: auto;
+}
+.haigou-top img:nth-of-type(11){
+    position: absolute;
+    left: 17%;
+    top: 69%;
+    width: 25%;
+    height: auto;
+}
+.haigou-top img:nth-of-type(12){
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    width: 45%;
+    height: auto;
+}
+.haigou-top img:nth-of-type(13){
+    position: absolute;
+    right: 10%;
+    top: 37%;
+    width: 40%;
+    height: auto;
+}
+.haigou-top img:nth-of-type(14){
+    position: absolute;
+    right: 17%;
+    top: 51%;
+    width: 25%;
+    height: auto;
+}
+.haigou-top img:nth-of-type(15){
+    position: absolute;
+    right: 17%;
+    top: 63%;
+    width: 25%;
+    height: auto;
+}
+.haigou-top img:nth-of-type(16){
+    position: absolute;
+    right: 17%;
+    top: 75%;
+    width: 25%;
+    height: auto;
+}
+.haigou-top img:nth-of-type(17){
+    position: absolute;
+    left: 10%;
+    top: 6%;
+    width: 30%;
+    height: auto;
+}
+.haigou-top img:nth-of-type(18){
+    position: absolute;
+    left: 15%;
+    top: 9%;
+    width: 20%;
+    height: auto;
+
+}
+.haigou-top img:nth-of-type(19){
+  position: absolute;
+  right:10%;
+  top: 6%;
+  width: 30%;
+  height: auto;
+}
+.haigou-top img:nth-of-type(20){
+  position: absolute;
+  right: 15%;
+  top: 9%;
+  width: 20%;
+  height: auto;
+}
+.haigou-top img:nth-of-type(21){
+  position: absolute;
+left: 33%;
+top: 15%;
+width: 30%;
+height: auto;
+}
+.haigou-top img:nth-of-type(22){
+  position: absolute;
+  left: 40%;
+  top: 18%;
+  width: 20%;
+  height: auto;
+}
+.haigou-top img:nth-of-type(23){
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  width: 30%;
+  height: auto;
+}
+.haigou-top img:nth-of-type(24){
+  position: absolute;
+  left: 15%;
+  top: 28%;
+  width: 20%;
+  height: auto;
+}
+.haigou-top img:nth-of-type(25){
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  width: 30%;
+  height: auto;
+}
+.haigou-top img:nth-of-type(26){
+  position: absolute;
+  right: 15%;
+  top: 28%;
+  width: 20%;
+  height: auto;
+}
+.haigou-top img:nth-of-type(27){
+  position: absolute;
+  left: 15%;
+  top: 60%;
+  width: 30%;
+  height: auto;
+
+}
+.haigou-top img:nth-of-type(28){
+    position: absolute;
+    left: 15%;
+    top: 64%;
+    width: 30%;
+    height: auto;
+
+}
+.haigou-top img:nth-of-type(29){
+  position: absolute;
+  left: 15%;
+  top: 72%;
+  width: 30%;
+  height: auto;
+}
+.haigou-top img:nth-of-type(30){
+  position: absolute;
+  left: 15%;
+  top: 76%;
+  width: 30%;
+  height: auto;
+}
+.haigou-top img:nth-of-type(31){
+  position: absolute;
+  right: 15%;
+  top: 53%;
+width: 30%;
+height: auto;
+}
+.haigou-top img:nth-of-type(32){
+  position: absolute;
+  right: 20%;
+  top: 58%;
+  width: 20%;
+  height: auto;
+}
+.haigou-top img:nth-of-type(33){
+  position: absolute;
+  right: 15%;
+  top: 65%;
+  width: 30%;
+  height: auto;
+}
+.haigou-top img:nth-of-type(34){
+  position: absolute;
+  right: 20%;
+  top: 69%;
+  width: 20%;
+  height: auto;
+}
+.haigou-top img:nth-of-type(35){
+  position: absolute;
+  right: 15%;
+  top: 77%;
+  width: 30%;
+  height: auto;
+}
+.haigou-top img:nth-of-type(36){
+  position: absolute;
+  right: 20%;
+  top: 82%;
+  width: 20%;
+  height: auto;
+}
+/*-------------------------------------------
+haigou-bottom
+-------------------------------------------*/
+#haigou-bottom{
+  text-align:center;
+}
+.haigou-bottom{
+    position: relative;
+    display: inline-block;
+}
+.haigou-bottom img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.haigou-bottom img:nth-of-type(2){
+    position: absolute;
+    left: 12%;
+    top: 4%;
+    width: 20%;
+    height: auto;
+}
+.haigou-bottom img:nth-of-type(3){
+    position: absolute;
+    left: 22%;
+    top: 8%;
+    width: 22%;
+    height: auto;
+}
+.haigou-bottom img:nth-of-type(4){
+    position: absolute;
+    left: 15%;
+    top: 14%;
+    width: 33%;
+    height: auto;
+}
+.haigou-bottom img:nth-of-type(5){
+    position: absolute;
+    left: 27%;
+    top: 19%;
+    width: 40%;
+    height: auto;
+}
+.haigou-bottom img:nth-of-type(6){
+    position: absolute;
+    left: 10%;
+    top: 67%;
+    width: 80%;
+    height: auto;
+}
+.haigou-bottom img:nth-of-type(7){
+    position: absolute;
+    left: 12%;
+    top: 83%;
+    width: 78%;
+    height: auto;
+}
+.haigou-bottom img:nth-of-type(8){
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 80%;
+    height: auto;
+}
+.haigou-bottom img:nth-of-type(9){
+    position: absolute;
+    left: 46%;
+    top: 8.5%;
+    width: 8%;
+    height: auto;
+}
+.haigou-bottom img:nth-of-type(10){
+  position: absolute;
+  left: 11%;
+  top: 81.3%;
+  width: 24%;
+  height: auto;
+  z-index:9999;
+}
+.haigou-bottom .text{
+    position: absolute;
+    left: 10%;
+    top: 48%;
+    width: 80%;
+    height: auto;
+    color:#357A32;
+    font-size:20px;
+}
+.haigou-bottom .text2{
+    position: absolute;
+    left: 10%;
+    top: 58%;
+    width: 80%;
+    height: auto;
+    color:#357A32;
+    font-size:20px;
+}
+/*-------------------------------------------
+koe
+-------------------------------------------*/
+#koe {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.koe {
+
+}
+#koe  .flex-item {
+  display: flex;
+  justify-content: space-between;
+}
+/*
+テキストを上に重ねるために、
+親要素の「position」に「relative」を設定
+*/
+#koe  .flex-item .item {
+  width: 98%;
+  position: relative;
+}
+/*
+「position: absolute;」を設定し、
+top、left、rightで位置を調整
+*/
+#koe  .flex-item .item .text {
+  max-width: 290px;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  font-size:20px;
+  letter-spacing:8px;
+}
+/*-------------------------------------------
+green
+-------------------------------------------*/
+#green{
+    text-align:center;
+}
+.green{
+    position: relative;
+    display: inline-block;
+}
+.green .text{
+    position: absolute;
+    right: 0;
+    top: 15%;
+    width: 100%;
+    height: auto;
+    color:#357A32;
+    font-size:200%;
+    font-weight:bold;
+}
+.green .text2{
+    position: absolute;
+    left: 4%;
+    top: 30%;
+    width: 92%;
+    height: auto;
+    color:#357A32;
+    line-height:300%;
+    text-align:left;
+    font-size:14px;
+}
+.green .text3{
+    position: absolute;
+    right: 0;
+    top: 15%;
+    width: 100%;
+    height: auto;
+    color:#357A32;
+    font-size:120%;
+    font-weight:bold;
+}
+.green .text4{
+    position: absolute;
+    left: 4%;
+    top: 30%;
+    width: 92%;
+    height: auto;
+    color:#357A32;
+    line-height:300%;
+    text-align:left;
+    font-size:14px;
+}
+.green .text5{
+    position: absolute;
+    right: 0;
+    top: 15%;
+    width: 100%;
+    height: auto;
+    color:#357A32;
+    font-size:200%;
+    font-weight:bold;
+}
+.green .text6{
+    position: absolute;
+    right: 4%;
+    top: 30%;
+    width: 92%;
+    height: auto;
+    color:#357A32;
+    line-height:300%;
+    text-align:left;
+    font-size:14px;
+}
+.green .text7{
+    position: absolute;
+    right: 0;
+    top: 15%;
+    width: 100%;
+    height: auto;
+    color:#357A32;
+    font-size:160%;
+    font-weight:bold;
+}
+.green .text8{
+    position: absolute;
+    right: 4%;
+    top: 30%;
+    width: 92%;
+    height: auto;
+    color:#357A32;
+    line-height:300%;
+    text-align:left;
+    font-size:14px;
+}
+
+@media screen and(max-width:770px){
+  body{width:100%;}
+  header{width:100%;}
+  main{width:100%;}
+  html{width:100%;}
+  .wrapper {
+    width: 100%;
+  }
